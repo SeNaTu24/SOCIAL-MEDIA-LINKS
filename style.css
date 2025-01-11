@@ -1,0 +1,95 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter";
+    color: hsl(0, 0%, 100%);
+    line-height: 1.6;
+    text-align: center;
+    background-color: rgb(15, 9, 1);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+}
+.container {
+    max-width: 300px;
+
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+}
+
+h2 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: small;
+    color: hsl(75, 94%, 57%);
+    margin-left: 55px;
+    width: 200px;
+}
+
+h3 {
+    font-family: "Inter";
+    font-size: small;
+}
+
+.links {
+    font-size: 14px;
+    background-color: hsl(0, 0%, 20%);
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: hsl(0, 0%, 20%);
+    }
+    img {
+        display: none;
+    }
+}
