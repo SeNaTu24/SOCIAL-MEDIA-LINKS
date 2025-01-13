@@ -34,28 +34,25 @@
 body {
     font-family: "Inter";
     color: hsl(0, 0%, 100%);
-    line-height: 1.6;
     text-align: center;
     background-color: rgb(15, 9, 1);
 }
 
-a {
-    color: hsl(0, 0%, 100%);
-}
 .container {
-    max-width: 300px;
-
+    display: grid;
+    min-height: 50vh;
+    place-content: center;
     background-color: hsl(0, 0%, 12%);
+    max-width: 350px;
     margin: auto;
     border-radius: 5%;
-    padding: 20px;
 }
 
 img {
     border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 100px;
+    margin: auto;
+    border-top: 200px;
+    padding: 10px;
 }
 
 h1 {
@@ -68,21 +65,27 @@ h2 {
     font-weight: 600;
     font-size: small;
     color: hsl(75, 94%, 57%);
-    margin-left: 55px;
-    width: 200px;
 }
 
-h3 {
+.skills {
     font-family: "Inter";
     font-size: small;
 }
 
-.links {
+.links li {
+    list-style: none;
+}
+.links a {
+    margin-right: 50px;
+    margin-bottom: 20px;
     font-size: 14px;
     background-color: hsl(0, 0%, 20%);
     height: 50px;
     line-height: 50px;
     border-radius: 10px;
+    display: block;
+    width: 300px;
+    color: hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 375px) {
